@@ -35,7 +35,7 @@ require_once BASE_PATH . '/includes/cabecalho.php';
 
         <div class="col-6 col-md-4 text-center">
             <h3><span class="badge text-bg-danger">0</span></h3>
-            <p><b>Produtos vencendo em até 30 dias</b></p>
+            <p><b>Produtos vencidos ou vencendo em até 30 dias</b></p>
         </div>
     </div>
 </section>
