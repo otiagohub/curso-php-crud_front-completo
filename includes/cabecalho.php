@@ -22,7 +22,7 @@ require_once __DIR__ . '/../config.php';
     <div class="container">
         <div class="row align-items-center py-2 justify-content-between">
             <div class="col-4">
-                <h1 class="mb-2 fs-4">Fly By Night</h1>
+                <h1 class="mb-2 fs-4"><a href="<?= BASE_URL ?>/index.php" class="text-decoration-none">Fly By Night</a></h1>
                 <h2 class="fs-6 lead">Gerenciamento de Estoque</h2>
             </div>
             <div class="col-8">
