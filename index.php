@@ -45,10 +45,10 @@ require_once BASE_PATH . '/includes/cabecalho.php';
     <h3><i class="bi bi-file-earmark-text fs-4"></i> Relatórios</h3>
 
     
-    <a href="relatorios/produtos-por-loja.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-box-seam"></i> Produtos por Loja</a>
-    <a href="relatorios/produtos-por-fornecedor.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-people"></i> Produtos por Fornecedor</a>
-    <a href="relatorios/estoque-por-produto.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-clipboard-data"></i> Estoque por Produto</a>
-    <a href="relatorios/estoque-baixo.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-exclamation-triangle"></i> Estoque Baixo</a>
+    <a href="<?= BASE_URL ?>/relatorios/produtos-por-loja.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-box-seam"></i> Produtos por Loja</a>
+    <a href="<?= BASE_URL ?>/relatorios/produtos-por-fornecedor.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-people"></i> Produtos por Fornecedor</a>
+    <a href="<?= BASE_URL ?>/relatorios/estoque-por-produto.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-clipboard-data"></i> Estoque por Produto</a>
+    <a href="<?= BASE_URL ?>/relatorios/estoque-baixo.php" class="btn my-1 btn-lg btn-outline-primary"><i class="bi bi-exclamation-triangle"></i> Estoque Baixo</a>
     
         
 </section>
