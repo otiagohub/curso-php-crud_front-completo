@@ -11,7 +11,7 @@ require_once BASE_PATH . '/includes/cabecalho.php';
 
 
     <form method="post" class="w-75 mx-auto">
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="nome" class="form-label">Loja:</label>
             <select class="form-select" name="loja_id" id="loja_id">
                 <option value=""></option>
@@ -21,7 +21,7 @@ require_once BASE_PATH . '/includes/cabecalho.php';
             </select>
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="produto_id" class="form-label">Produto:</label>
             <select class="form-select" name="produto_id" id="produto_id">
                 <option value=""></option>
@@ -31,7 +31,7 @@ require_once BASE_PATH . '/includes/cabecalho.php';
             </select>
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-3">
 
             <label for="estoque" class="form-label">Estoque:</label>
             <input type="number" name="estoque" class="form-control" id="estoque" min="0">
